@@ -2,5 +2,5 @@
 Daftar tempat nongkrong disekitar mu!
 
 # Requirements
-Place API<br>
+Places API<br>
 Google Maps API
