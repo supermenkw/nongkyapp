@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/card_margin">
+
+    <ImageView
+        android:id="@+id/logo_error"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_network_check_black_24dp"
+        android:layout_marginTop="100dp"
+        android:tint="@color/colorDirection"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_below="@+id/logo_error"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Permintaan tidak dapat diproses akibat error koneksi jaringan. Silahkan coba lagi"/>
+
+    <Button
+        android:id="@+id/load_refresh"
+        android:layout_below="@+id/text_error"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorDirection"
+        android:text="Refresh"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

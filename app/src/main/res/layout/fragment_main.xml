@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Main.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:elevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            app:layout_scrollFlags="scroll">
+            <com.codekinian.nongkyapp.Utils.TabLayout.CustomTabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:tabBackground="@color/transparent"
+                app:tabMaxWidth="0dp"
+                app:tabPaddingEnd="1dp"
+                app:tabPaddingStart="1dp"
+                app:tabIndicatorHeight="3dp"
+                app:tabSelectedTextColor="@color/gold_star"
+                app:tabIndicatorColor="@color/colorDirection"
+                app:tabIndicatorWidth="50dp"/>
+            <!--<com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />-->
+
+            <!--<ss.com.bannerslider.views.BannerSlider
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>-->
+
+
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_containers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"/>
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "370183092125",
+    "firebase_url": "https://nongkiapp-1557303025711.firebaseio.com",
+    "project_id": "nongkiapp-1557303025711",
+    "storage_bucket": "nongkiapp-1557303025711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370183092125:android:9b8c7e58b25996db",
+        "android_client_info": {
+          "package_name": "com.codekinian.nongkyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370183092125-1lpifgts0hirgem1efiabs7h1utatbnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codekinian.nongkyapp",
+            "certificate_hash": "4d50ce85dc1487e0529d9edb9d356911d5bbb449"
+          }
+        },
+        {
+          "client_id": "370183092125-ov229e68inmfve5g061ddfmg4nc2btjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNi-yeehFsZ45G9JA-zCIl223tnsQLot4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370183092125-ov229e68inmfve5g061ddfmg4nc2btjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
