@@ -47,9 +47,8 @@ public class AboutFragment extends MvpFragment<AboutPresenter> implements AboutV
        /* fancyAboutPage.setAppIcon(R.drawable.brand_logoo);*/ //Pass your app icon image
         fancyAboutPage.setAppName("Nongky App");
         fancyAboutPage.setVersionNameAsAppSubTitle("Alpha");
-        fancyAboutPage.setAppDescription("10115470 - Nadya Yulianti Alamsyah\n"+
-                "10115472 - Novita Desi R");
-        fancyAboutPage.addEmailLink("@email.unikom.ac.id");     //Add your email id
+        fancyAboutPage.setAppDescription("");
+        fancyAboutPage.addEmailLink("example@email.com);     //Add your email id
         fancyAboutPage.addFacebookLink("https://www.facebook.com/");  //Add your facebook address url
         fancyAboutPage.addTwitterLink("https://twitter.com/");
         fancyAboutPage.addLinkedinLink("https://www.linkedin.com/in/");
